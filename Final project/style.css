@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  background: url("images/background.jpg") center no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+  margin: 0px;
+  font-family: "Delius", cursive;
+}
+hr {
+  width: 600px;
+}
+#img1 {
+  width: 350px;
+  height: 350px;
+}
+
+.box {
+  background-color: azure;
+  width: 800px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.one {
+  background-color: red;
+  padding: 3px;
+  font-family: "Delius", cursive;
+  text-decoration: underline;
+}
+.two {
+  background-color: blue;
+  padding: 3px;
+  font-family: "Delius", cursive;
+  color: white;
+  text-decoration: underline;
+}
+.three {
+  background-color: gold;
+  padding: 3px;
+  font-family: "Delius", cursive;
+  text-decoration: underline;
+}
+.four {
+  background-color: green;
+  padding: 3px;
+  font-family: "Delius", cursive;
+  text-decoration: underline;
+}
+.five {
+  background-color: purple;
+  padding: 3px;
+  font-family: "Delius", cursive;
+  color: white;
+  text-decoration: underline;
+}
+.six {
+  padding: 3px;
+  font-family: "Delius", cursive;
+  background-color: lightblue;
+  text-decoration: underline;
+}
+
+.btn1 {
+  text-align: left;
+}
+
+.btn2 {
+  padding: 5px;
+  letter-spacing: 1px;
+  font-family: "Delius", cursive;
+  font-variant: small-caps;
+  vertical-align: middle;
+  text-decoration: underline;
+  background-color: azure;
+}
+
+li {
+  padding: 10px 0px;
+}
+
+.img2 {
+  width: 450px;
+  border: black solid 1px;
+  margin: auto;
+  padding: 50px;
+  border: dotted;
+}
+
+#results img {
+  width: 100px;
+  height: 100px;
+}
+
+#plus10 {
+  text-decoration: underline;
+  font-family: "Delius", cursive;
+  background-color: azure;
+}
+
+#plus100 {
+  text-decoration: underline;
+  font-family: "Delius", cursive;
+  background-color: azure;
+  
+}
+
+#clash {
+  width: 450px;
+  height: 250px;
+  padding: bottom 5px ;
+}
+
+.btn{
+  font-family: "Delius", cursive;
+  text-decoration: underline;
+  background-color: azure;
+  font-size: 15px;
+}

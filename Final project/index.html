@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Delius&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Dragon ball characters</title>
+  </head>
+  <body>
+    <div id="box" class="box">
+      <h1 id="h1">Dragon ball movie characters</h1>
+      <h2 id="name">????</h2>
+      <img id="img1" src="images/gokulogo.jpg" height="300" />
+      <p id="description">????</p>
+      <p id="fact">Fun fact:</p>
+
+      <button id="one" class="one">Goku</button>
+      <button id="two" class="two">Vegeta</button>
+      <button id="three" class="three">Frieza</button>
+      <button id="four" class="four">BROLY</button>
+      <button id="five" class="five">Paragus</button>
+      <button id="six" class="six">Gogeta</button>
+      <hr />
+
+      <ul id="word" class="btn1">
+        <li>Something goku has: <input id="input1" /></li>
+        <li>Something vegeta can never do: <input id="input2"</li>
+        <li>Something every villian wants to do: <input id="input3" /></li>
+        <li>
+          Something the main character always does to the villian:<input
+            id="input4"
+          />
+        </li>
+        <li>
+          Something that happends at the end of a movie:<input id="input5" />
+        </li>
+      </ul>
+
+      <button id="btn" class="btn2">Mad Lib</button>
+      <hr />
+
+      <h2 id="word2">Mad Lib Results</h2>
+
+      <p id="output"></p>
+
+      <hr />
+
+      <p>
+        Click the picture to simulate getting tradding cards of dragon ball
+        characters. In theory there is a 70% chance of catching a Rare Card, a
+        20% chance of catching a Super rare card and a 9% chance of catching a
+        Ultra rare Card.
+      </p>
+      <p>
+        There are two super rare characters Super saiyan 3 Goku and Hit.The
+        Ultra rare is Super saiyan blue Kaioken Goku, and there is even a Secret
+        character.
+      </p>
+
+      <p>
+        <strong>TOTALS -> </strong>
+        Rare: <span id="rare">0</span> | Super Rare: <span id="super">0</span> |
+        Ultra Rare: <span id="Ultra">0</span> | Secret Card:
+        <span id="Secret">0</span> |
+      </p>
+
+      <img id="mainImg" class="img2" src="images/logo2.png" alt="logo2" />
+      <p><button id="plus10">Add 10</button></p>
+      <p><button id="plus100">Add 100</button></p>
+      <hr />
+      <p id="results"></p>
+      <img id="clash" src="images/clash.jpg" alt="clash" />
+      <h3>Calculating the Saiyans Attack Values</h3>
+      <hr />
+      <table>
+        <tr>
+          <td>Goku's Strength: <input id="num1" /></td>
+          <td>Vegeta's Strength: <input id="num3" /></td>
+        </tr>
+        <tr>
+          <td>Goku's Defense: <input id="num2" /></td>
+          <td>Vegeta's Defense: <input id="num4" /></td>
+        </tr>
+        <tr>
+          <td>Goku's Attack Value: <span id="atk1">------</span></td>
+          <td>Vegeta's Attack Value: <span id="atk2">------</span></td>
+        </tr>
+      </table>
+
+      <p><button id="btnatk" class="btn">Calculate Attack</button></p>
+    </div>
+  </body>
+
+  <script src="main.js"></script>
+</html>
